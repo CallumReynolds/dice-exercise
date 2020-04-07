@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import './Die.css';
 
 class Die extends Component {
-    
-    render(){
-        
+    render(){   
         return(
-                <i className={`Die-icon fas fa-dice-${this.props.number}`}></i>
+            <i className={`Die-icon fas fa-dice-${this.props.number}`}></i>
         );
     }
 }

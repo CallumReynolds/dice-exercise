@@ -22,10 +22,9 @@ class RollDice extends Component {
     }
 
     roll(e){
-        var item1 = this.random(this.props.diceNum);
-        this.setState({num1 : item1});
-        var item2 = this.random(this.props.diceNum);
-        this.setState({num2 : item2});
+        let item1 = this.random(this.props.diceNum);
+        let item2 = this.random(this.props.diceNum);
+        this.setState({num2 : item2, num1 : item1});
     }
 
     render(){
