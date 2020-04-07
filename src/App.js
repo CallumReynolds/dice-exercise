@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Button from './Button';
+import RollDice from './RollDice';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button />
+        <RollDice />
       </div>
     );
   }
